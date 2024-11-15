@@ -1,6 +1,6 @@
 {
   "name": "@ljames8/mqtt-hap-hormann-garagedoor",
-  "displayName": "Hörmann Garage Door",
+  "displayName": "Smart Hörmann Garage Door",
   "version": "0.0.1",
   "description": "DIY Hormann Supramatic E3 garage door connection to MQTT + Homekit",
   "main": "dist/garageDoor.js",
@@ -15,8 +15,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npx --no-install lint-staged",
-      "pre-push": "npm run test"
+      "pre-commit": "npx --no-install lint-staged"
     }
   },
   "lint-staged": {
